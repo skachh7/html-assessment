@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center; color: lightgreen">Samir Kachhapati</h1>
+  
+    </header>
+    <strong
+    ><address style="text-align: center">
+      Kathmandu, Nepal
+    </address></strong
+  >
+    <hr />
+        <h2 style="text-align: center; color: lightgreen">Introduction</h2>
+        <blockquote>
+          <p>
+            It's me <strong>Samir Kachhapati</strong>, currently living in
+            Hurstville and recently graduated from
+            <i>Southern Cross University.</i> Looking for a challenging role in
+            a reputable organization to utilize my technical, database, and
+            management skills for the growth of the organization as well as to
+            enhance my knowledge about new and emerging trends in the IT sector.
+            Strong background in backend engineering, frameworks, frontend and
+            database. Having the willingness to learn and grow personally and
+            professionally, I am looking for a position in a company that needs
+            and values high quality customer service and system support.
+          </p>
+        </blockquote>
+      <hr />
+        <h2 style="text-align: center; color: lightgreen">My Skills</h2>
+        <table border ="1" cellspacing="1" style="width: 100%">
+          <tr>
+            <td style="font-weight: bold">Client-side:</td>
+            <td>HTML, CSS, JavaScript, Wordpress, PHP, JS</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold">Operating System:</td>
+            <td>Windows, Linux</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold">Server:</td>
+            <td>Apache, MYSQL, SQL server</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold">Version:</td>
+            <td>GIT</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold">Methodology:</td>
+            <td>SDLC, Agile Scrum Methodology</td>
+          </tr>
+        </table>
+      <hr />
+        <h2 style="text-align: center; color: lightgreen">JavaScript code</h2>
+        <pre style="text-align: left">
+
+            // program to find the largest among three numbers
+
+            // take input from the user
+            const num1 = parseFloat(prompt("Enter first number: "));
+            const num2 = parseFloat(prompt("Enter second number: "));
+            const num3 = parseFloat(prompt("Enter third number: "));
+            let largest;
+            
+            // check the condition
+            if(num1 >= num2 && num1 >= num3) {
+                largest = num1;
+            }
+            else if (num2 >= num1 && num2 >= num3) {
+                largest = num2;
+            }
+            else {
+                largest = num3;
+            }
+            
+            // display the result
+            console.log("The largest number is " + largest);
+            
+        </pre>
+      <hr />
+        <h2 style="text-align: center; color: lightgreen">Table</h2>
+        <table style="width: 100%" border="1">
+          <thead>
+            <tr>
+              <th>S.N</th>
+              <th>Names</th>
+              <th>Release Date</th>
+              <th>Advantages</th>
+            </tr>
+          </thead>
+          <tbody style="text-align: center">
+            <tr>
+              <td>1</td>
+              <td>Bootstrap</td>
+              <td>mid-2010</td>
+              <td>
+                Bootstrap enables the utilization of ready-made blocks of code.
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Node.js</td>
+              <td>2009</td>
+              <td>
+                Node.js is used for building fast and scalable network
+                applications.
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Django</td>
+              <td>2005</td>
+              <td>Django offers high security</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Angular JS</td>
+              <td>2010</td>
+              <td>
+                It offers built-in protection against basic security holes.
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>React JS</td>
+              <td>2013</td>
+              <td>
+                It enables you to store everything that changes in a single
+                place
+              </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Vue.js</td>
+              <td>2014</td>
+              <td>
+                Vue.js offers advanced features, such as Virtual and DOM and Data
+                Binding 
+              </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>GitHub</td>
+              <td>2008</td>
+              <td>It allows developers to do all coding in a single place</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Microsoft Azure</td>
+              <td>1987</td>
+              <td>It allows to manage app proactively in windows.</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>NetBeans</td>
+              <td>1996</td>
+              <td>It offers superior support for C/C++ and PHP developers</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Jenkins</td>
+              <td>2004</td>
+              <td>It offers a variety of plugins for continuous integration</td>
+            </tr>
+          </tbody>
+        </table>
+      <hr />
+        <h2 style="text-align: center; color: lightgreen">Form</h2>
+        <form method="POST">
+          <label>First Name:</label>
+          <input
+            type="text"
+            placeholder="Enter you first name"
+            required
+          /><br /><br />
+          <label>Last Name:</label>
+          <input
+            type="text"
+            placeholder="Enter you last name"
+            required
+          /><br /><br />
+          <label>Email:</label>
+          <input
+            type="email"
+            placeholder="Enter you first name"
+            required
+          /><br /><br />
+          <label>Phone number:</label>
+          <input
+            type="number"
+            placeholder="Enter you first name"
+            required
+          /><br /><br />
+          <label>Comments:</label>
+          <textarea rows="6" cols="20"></textarea><br /><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+        <hr>
+        <h2 style="text-align: center; color: lightgreen">Social Media</h2>
+
+        <footer style="text-align: center;">
+          <div>
+          <a href="https://www.facebook.com/" target="_blank"><i class = "fa fa-facebook">Facebook</i></a>
+          <a href="https://twitter.com/" target="_blank"><i class = "fa fa-twitter">Twitter</i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class = "fa fa-instagram">Instagram</i></a>
+          <a href="https://au.linkedin.com/" target="_blank"><i class = "fa fa-linkedin">Linkedin</i></a>
+          </div>
+        </footer>
+  </body>
+</html>
